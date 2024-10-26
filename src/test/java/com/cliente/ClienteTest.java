@@ -17,23 +17,23 @@ public class ClienteTest {
 	
 	
 	@Autowired
-	ClienteService produtoSerivce;
+	ClienteService clienteService;
 	
 
 	@Test
-	public void testSalvarProduto() throws Exception {
+	public void testSalvarCliente() throws Exception {
 
 		Cliente produto = Cliente.builder().nome("Teste produto").endereco("Rua A").build();
-		Cliente produtoDB = produtoSerivce.salvarOrAtualizar(produto);
+		Cliente produtoDB = clienteService.salvarOrAtualizar(produto);
 		assertEquals(produto.getNome(), produtoDB.getNome());
 	}
 
 	@Test
-	public void testListarProduto() throws Exception {
+	public void testListarCliente() throws Exception {
 		
-		List<Cliente> listarProduto = produtoSerivce.listar();
+		List<Cliente> listar = clienteService.listar();
 		
-		assertTrue(listarProduto.size() > 0);
+		assertTrue(listar.size() > 0);
 
 	}
 	
