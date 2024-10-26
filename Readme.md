@@ -19,10 +19,10 @@
 
 3. **Telas da aplicacao**
 
-![alt text](https://i.postimg.cc/QFm54wNc/1.png?raw=true)
+![alt text](https://i.postimg.cc/CKTN1pWr/1.png?raw=true)
 
-![alt text](https://i.postimg.cc/tnFnhmmZ/2.png?raw=true)
+![alt text](https://i.postimg.cc/L5bkFctT/2.png?raw=true)
 
-![alt text](https://i.postimg.cc/grhhFnkz/3.png?raw=true)
+![alt text](https://i.postimg.cc/5117Z5pn/3.png?raw=true)
 
-![alt text](https://i.postimg.cc/47DhHTwR/4.png?raw=true)
+![alt text](https://i.postimg.cc/RhF18SHh/4.png?raw=true)
