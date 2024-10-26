@@ -8,6 +8,6 @@ RUN set -ex \
 		&& mvn install
 
 FROM openjdk:17-alpine
-ENV JAR_FILE="nf-0.0.1-SNAPSHOT.jar"
+ENV JAR_FILE="cliente-0.0.1-SNAPSHOT.jar"
 COPY target/${JAR_FILE} /${JAR_FILE}
-CMD ["java", "-jar", "-Xms512M", "-Xmx4192M", "/produto-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "-Xms512M", "-Xmx4192M", "/cliente-0.0.1-SNAPSHOT.jar"]
